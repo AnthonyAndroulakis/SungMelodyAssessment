@@ -16,4 +16,4 @@ Sung Melody Transcription in Python, this is a vastly-more-efficient version of 
 `notePitches,noteLengths = SMM.SMM(filename)`
 
 ## License:
-If this code helps your research or project, cite this repo as well as https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies.
+If this code helps your research or project, cite me (Anthony Androulakis) and this repo as well as https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies.
