@@ -1,5 +1,5 @@
 SMM.py, Anthony Androulakis, 2019
-# SungMelodyTranscription
+# Sung Melody Transcription
 Sung Melody Transcription in Python, this is a vastly-more-efficient version of my SMM.m
 
 ## Requirements:
