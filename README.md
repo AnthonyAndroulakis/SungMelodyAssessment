@@ -12,5 +12,5 @@ Sung Melody Transcription in Python, this is a vastly-more-efficient version of 
     - numpy
 
 ## How to run:
-`import SMM` 
+`import SMM`       
 `notePitches,noteLengths = SMM.SMM(filename)`
