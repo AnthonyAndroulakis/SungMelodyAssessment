@@ -13,7 +13,9 @@ Sung Melody Transcription in Python, this is a vastly-more-efficient version of 
 
 ## How to run:
 `import SMM`       
-`notePitches,noteLengths = SMM.SMM(filename)`
+`Phz = SMM.SMM(filename)`     
+`notePitches = PHz[0]`     
+`noteLengths = PHz[1]`     
 
 ## License:
 As long as you cite me (Anthony Androulakis) and this repo as well as https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies, you may use the code.
