@@ -75,6 +75,6 @@ def SMM(filename):
     noteLengths = [t - s for s, t in zip(noteChanges, noteChanges[1:])]
     
     #########################
-    return(notePitches,noteLengths)
+    return([notePitches,noteLengths])
 
 #example run: notePitches,noteLengths = SMM.SMM(filename)
