@@ -11,14 +11,17 @@ Sung Melody Transcription in Python, this is a vastly-more-efficient version of 
     - parselmouth
     - numpy
 
-## How to run:
+## How to run SMM:
 `import SMM`       
 `Phz = SMM.SMM(filename)`     
 `notePitches = PHz[0]`     
 `noteLengths = PHz[1]`     
+will also output a txt file in this format:         
+PHz=notePitches,noteLengths      
 
-## License:
-As long as you cite me (Anthony Androulakis) and this repo as well as https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies, you may use the code.
+## How to run MFE:
+`import MFE`
+`MFE.MFE('tune.txt', 'participant.txt')`
 
 ## Works Cited:
 - Jadoul, Y., Thompson, B., & de Boer, B. (2018). Introducing Parselmouth: A Python interface to Praat. Journal of Phonetics, 71, 1-15. https://doi.org/10.1016/j.wocn.2018.07.001     
