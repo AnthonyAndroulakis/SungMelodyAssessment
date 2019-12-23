@@ -1,3 +1,4 @@
+#MFE.py, Anthony Androulakis, 2019
 #looks at each patient individually, input is 2 txt files
 import math
 import numpy as np
