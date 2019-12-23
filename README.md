@@ -7,6 +7,7 @@ Sung Melody Assessment in Python, more efficient and simple that my codes 2 year
 2) python3
 3) python modules:
     - scipy
+    - itertools
     - more_itertools
     - parselmouth
     - numpy
