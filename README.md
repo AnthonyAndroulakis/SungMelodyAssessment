@@ -22,7 +22,8 @@ PHz=notePitches,noteLengths
 
 ## How to run MFE:
 `import MFE`
-`MFE.MFE('tune.txt', 'participant.txt')`
+`MFE.MFE('tune.txt', 'participant.txt')`      
+returns noteIntervalError, rhythmError, noteNumDifference
 
 ## Works Cited:
 - Jadoul, Y., Thompson, B., & de Boer, B. (2018). Introducing Parselmouth: A Python interface to Praat. Journal of Phonetics, 71, 1-15. https://doi.org/10.1016/j.wocn.2018.07.001     
