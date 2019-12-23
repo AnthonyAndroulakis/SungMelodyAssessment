@@ -1,4 +1,4 @@
-SMM.py, Anthony Androulakis, 2019
+SMM.py & MFE.py, Anthony Androulakis, 2019
 # Sung Melody Assessment
 Sung Melody Assessment in Python, more efficient and simple that my codes 2 years ago
 
