@@ -1,6 +1,6 @@
 SMM.py, Anthony Androulakis, 2019
-# Sung Melody Transcription
-Sung Melody Transcription in Python, this is a vastly-more-efficient version of my SMM.m
+# Sung Melody Assessment
+Sung Melody Assessment in Python, more efficient and simple that my codes 2 years ago
 
 ## Requirements:
 1) .wav file of a sung melody, any length
