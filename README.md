@@ -21,7 +21,7 @@ will also output a txt file in this format:
 PHz=notePitches,noteLengths      
 
 ## How to run MFE:
-`import MFE`
+`import MFE`     
 `MFE.MFE('tune.txt', 'participant.txt')`      
 returns noteIntervalError, rhythmError, noteNumDifference
 
