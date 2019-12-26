@@ -1,6 +1,7 @@
 SMM.py & MFE.py, Anthony Androulakis, 2019
 # Sung Melody Assessment
-Sung Melody Assessment in Python, more efficient and simple that my codes 2 years ago
+Sung Melody Assessment in Python. I've made quite a few changes to my [EncodingAndAssessingSungMelodies](https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies) algorithm to increase efficiency and accuracy.
+![flowchart](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/SungMelodyAssessment_flowchart.png)
 
 ## Requirements:
 1) .wav file of a sung melody, any length
