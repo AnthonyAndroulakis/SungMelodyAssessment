@@ -1,6 +1,6 @@
 SMM.py & MFE.py, Anthony Androulakis, 2019
 # Sung Melody Assessment
-Sung Melody Assessment in Python. I've made quite a few changes to my [EncodingAndAssessingSungMelodies](https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies) algorithm to increase efficiency and accuracy.
+Sung Melody Assessment in Python. Includes sung melody transcription (SMM/Sung Melody to Matrix) and melody assessment (MFE/Melodic Fidelity Evaluator). This is an improved version of my [EncodingAndAssessingSungMelodies](https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies) algorithm. Improvements include increased efficiency and accuracy.
 ![flowchart](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/SungMelodyAssessmentFlowchart.png)
 
 ## Requirements:
@@ -13,7 +13,7 @@ Sung Melody Assessment in Python. I've made quite a few changes to my [EncodingA
     - itertools
     - more_itertools
 
-## How to run SMM:
+## How to run SMM (Sung Melody to Matrix):
 `import SMM`       
 `Phz = SMM.SMM(filename)`     
 `notePitches = PHz[0]`     
@@ -21,7 +21,7 @@ Sung Melody Assessment in Python. I've made quite a few changes to my [EncodingA
 will also output a txt file in this format:         
 PHz=notePitches,noteLengths      
 
-## How to run MFE:
+## How to run MFE (Melodic Fidelity Evaluator):
 `import MFE`     
 `MFE.MFE('tune.txt', 'participant.txt')`      
 returns noteIntervalError, rhythmError, noteNumDifference
