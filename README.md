@@ -64,7 +64,7 @@ This is shown in the graph below:
 
 ### Further code explanations can be found in the comment lines in [SMM.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/SMM.py) and [MFE.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/MFE.py)
 ---------------------------------
-# How to generate random 3-second melodies along with txt files:
+# How to generate random 3-second melodies (along with corresponding txt files):
 https://github.com/AnthonyAndroulakis/RaCoTuGe
 
 ---------------------------------
