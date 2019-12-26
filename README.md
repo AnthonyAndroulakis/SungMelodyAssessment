@@ -27,7 +27,6 @@ returns noteIntervalError, rhythmError, noteNumDifference
 
 ---------------------------------
 # How these algorithms work:
-
 ## Sung Melody to Matrix (SMM):
 - input: .wav file of a sung melody
 - output: txt file containing frequency and duration information       
@@ -65,7 +64,10 @@ This is shown in the graph below:
 
 ### Further code explanations can be found in the comments in SMM.py and MFE.py
 ---------------------------------
+# How to generate random 3-second melodies along with txt files:
+https://github.com/AnthonyAndroulakis/RaCoTuGe
 
+---------------------------------
 ## Works Cited:
 - Jadoul, Y., Thompson, B., & de Boer, B. (2018). Introducing Parselmouth: A Python interface to Praat. Journal of Phonetics, 71, 1-15. https://doi.org/10.1016/j.wocn.2018.07.001     
 - Boersma, P., & Weenink, D. (2018). Praat: doing phonetics by computer [Computer program]. Version 6.0.43, retrieved 8 September 2018 from http://www.praat.org/     
