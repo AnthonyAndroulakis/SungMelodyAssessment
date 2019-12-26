@@ -7,11 +7,11 @@ Sung Melody Assessment in Python. I've made quite a few changes to my [EncodingA
 1) .wav file of a sung melody, any length
 2) python3 (tested successfully in python3)
 3) python modules:
+    - parselmouth (https://github.com/AnthonyAndroulakis/parselmouthForPython3)
+    - numpy
     - scipy
     - itertools
     - more_itertools
-    - parselmouth (https://github.com/AnthonyAndroulakis/parselmouthForPython3)
-    - numpy
 
 ## How to run SMM:
 `import SMM`       
