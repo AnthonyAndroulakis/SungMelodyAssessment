@@ -25,6 +25,8 @@ PHz=notePitches,noteLengths
 `MFE.MFE('tune.txt', 'participant.txt')`      
 returns noteIntervalError, rhythmError, noteNumDifference
 
+##### example txt file: https://github.com/AnthonyAndroulakis/TuneTaskApps/blob/master/the%20tunes/matricies/tune1.txt
+
 ---------------------------------
 # How these algorithms work:
 ## Sung Melody to Matrix (SMM):
