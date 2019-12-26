@@ -34,8 +34,8 @@ Praat only includes human voice in the pitch curve, thus creating a discontinuou
 Pitch segments that occur for less than 0.1 seconds are excluded.       
 To find the specific location in between 2 voiced notes that indicates a note change, the point of lowest intensity between each pair of voiced notes is picked.     
      
-This is shown in the picture below:
-(Graph Example)[https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/graphexample.png]
+This is shown in the picture below:     
+[Graph Example](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/graphexample.png)
 
 ## Melodic Fidelity Evaluator (MFE):
 
