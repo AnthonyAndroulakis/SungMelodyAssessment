@@ -38,6 +38,9 @@ This is shown in the graph below:
 ![Graph Example](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/graphexample.png)
 
 ## Melodic Fidelity Evaluator (MFE):
+- measured error: Note Interval Error, Rhythm Error, Number of notes added or deleted by participant
+- 2 cases: (1) participant sings the same # of notes as melody (2) participant sings a different # of notes as melody
+
 
 ---------------------------------
 
