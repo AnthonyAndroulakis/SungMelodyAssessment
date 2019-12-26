@@ -62,7 +62,7 @@ This is shown in the graph below:
       * within each permutation, fill in pitches such that they are dependent on the value before and after. For example, if the pitches of the shortest matrix are 3,[extra note],[extra note],5, the only configurations available are 3,3,3,5 3,3,5,5 and 3,5,5,5. The configuration that leads to the smallest Euclidean Distance for note intervals between the shortest matrix and the longest matrix is chosen for each permutation.
       * find the permutation that has the smallest Euclidean Distance for note intervals between the shortest matrix and the longest matrix is found. This matrix (previously shortest matrix) and the longest matrix are then placed as inputs into function 1 (described above) to calculate the Note Interval Error and Rhythm Error
 
-### Further code explanations can be found in the comments in SMM.py and MFE.py
+### Further code explanations can be found in the comment lines in [SMM.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/SMM.py) and [MFE.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/MFE.py)
 ---------------------------------
 # How to generate random 3-second melodies along with txt files:
 https://github.com/AnthonyAndroulakis/RaCoTuGe
