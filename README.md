@@ -46,7 +46,7 @@ This is shown in the graph below:
 - output: measured error (using Euclidean distances): Note Interval Error, Rhythm Error, Number of notes added or deleted by participant
 - 2 cases: (1) participant sings the same # of notes as melody (2) participant sings a different # of notes as melody
           
-* for the simple case of the participant singing the same # of notes as the melody (case 1), the steps below are followed:
+- * for the simple case of the participant singing the same # of notes as the melody (case 1), the steps below are followed:
 1) scale participant sung note durations by the projection of (participant durations) onto (melody durations)
 2) find the Rhythm Error by finding the Euclidean Distance between the scaled participant durations and the melody durations
 3) convert both the participant sung note frequencies and melody frequencies into whole numbers      
