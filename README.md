@@ -46,13 +46,22 @@ This is shown in the graph below:
 - output: measured error (using Euclidean distances): Note Interval Error, Rhythm Error, Number of notes added or deleted by participant
 - 2 cases: (1) participant sings the same # of notes as melody (2) participant sings a different # of notes as melody
           
-- for the simple case of the participant singing the same # of notes as the melody (case 1), the steps below are followed:
+- __function 1__ for the simple case of the participant singing the same # of notes as the melody (case 1), the steps below are followed:
   1) scale participant sung note durations by the projection of (participant durations) onto (melody durations)
   2) find the Rhythm Error by finding the Euclidean Distance between the scaled participant durations and the melody durations
   3) convert both the participant sung note frequencies and melody frequencies into whole numbers      
 (-∞ <-- A4=0 --> +∞)
   4) find the note intervals of the participant sung notes and melody notes by calculating the difference between note pairs for each
   5) find the Note Interval Error by finding the Euclidean Distance between the note intervals of the participant sung notes and melody notes
+  6) Number of notes added or deleted by the participant = # of participant notes - # of notes in melody
+
+- __function 2__ for the other case (participant singing the different # of notes as the melody (case 2)), the steps below are first followed:
+  1) Number of notes added of deleted by participant = # of participant notes - # of notes in melody
+  2) find which has fewer notes (sung melody of participant OR melody) (shorter matrix) and which has more notes (sung melody of participant OR melody) (longer matrix)
+  3) now the smaller matrix will be filled with specially chosen notes to guess the participant's intentions:
+      * find all permutations of added notes into the smaller matrix. The notes of the smaller matrix cannot change order, but the added notes can be placed anywhere. The number of added notes is the absolute value of the Number of notes added of deleted by the participant
+      * within each permutation, fill in pitches such that they are dependent on the value before and after. For example, if the pitches of the shortest matrix are 3,[extra note],[extra note],5, the only configurations available are 3,3,3,5 3,3,5,5 and 3,5,5,5. The configuration that leads to the smallest Euclidean Distance for note intervals between the shortest matrix and the longest matrix is chosen for each permutation.
+      * find the permutation that has the smallest Euclidean Distance for note intervals between the shortest matrix and the longest matrix is found. This matrix (previously shortest matrix) and the longest matrix are then placed as inputs into function 1 (described above) to calculate the Note Interval Error and Rhythm Error
 
 ---------------------------------
 
