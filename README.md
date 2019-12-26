@@ -32,7 +32,7 @@ returns noteIntervalError, rhythmError, noteNumDifference
 Praat (Parselmouth) is used to find the sung pitches and intensity curves.     
 Praat only includes human voice in the pitch curve, thus creating a discontinuous pitch curve (NaN values inbetween voiced notes).      
 Pitch segments that occur for less than 0.1 seconds are excluded.       
-To find the specific location in between 2 voiced notes that indicates a note change, the point of lowest intensity between each pair of voiced notes is picked.     
+To find the specific location in between 2 voiced notes that indicates a note change, the point of lowest intensity between each pair of voiced notes is picked (the intensity curve is smoothed with a gaussian filter with sigma length(envelope)/100).     
      
 This is shown in the graph below:     
 ![Graph Example](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/graphexample.png)
