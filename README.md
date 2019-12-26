@@ -4,12 +4,12 @@ Sung Melody Assessment in Python, more efficient and simple that my codes 2 year
 
 ## Requirements:
 1) .wav file of a sung melody, any length
-2) python3
+2) python3 (tested successfully in python3)
 3) python modules:
     - scipy
     - itertools
     - more_itertools
-    - parselmouth
+    - parselmouth (https://github.com/AnthonyAndroulakis/parselmouthForPython3)
     - numpy
 
 ## How to run SMM:
@@ -24,6 +24,16 @@ PHz=notePitches,noteLengths
 `import MFE`     
 `MFE.MFE('tune.txt', 'participant.txt')`      
 returns noteIntervalError, rhythmError, noteNumDifference
+
+---------------------------------
+# How these algorithms work:
+
+## Sung Melody to Matrix (SMM):
+
+
+## Melodic Fidelity Evaluator (MFE):
+
+---------------------------------
 
 ## Works Cited:
 - Jadoul, Y., Thompson, B., & de Boer, B. (2018). Introducing Parselmouth: A Python interface to Praat. Journal of Phonetics, 71, 1-15. https://doi.org/10.1016/j.wocn.2018.07.001     
