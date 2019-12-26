@@ -46,7 +46,7 @@ This is shown in the graph below:
 - output: measured error (using Euclidean distances): Note Interval Error, Rhythm Error, Number of notes added or deleted by participant
 - 2 cases: (1) participant sings the same # of notes as melody (2) participant sings a different # of notes as melody
           
-- __function 1__ for the simple case of the participant singing the same # of notes as the melody (case 1), the steps below are followed:
+- __function 1__: for the simple case of the participant singing the same # of notes as the melody (case 1), the steps below are followed:
   1) scale participant sung note durations by the projection of (participant durations) onto (melody durations)
   2) find the Rhythm Error by finding the Euclidean Distance between the scaled participant durations and the melody durations
   3) convert both the participant sung note frequencies and melody frequencies into whole numbers      
@@ -55,7 +55,7 @@ This is shown in the graph below:
   5) find the Note Interval Error by finding the Euclidean Distance between the note intervals of the participant sung notes and melody notes
   6) Number of notes added or deleted by the participant = # of participant notes - # of notes in melody
 
-- __function 2__ for the other case (participant singing the different # of notes as the melody (case 2)), the steps below are first followed:
+- __function 2__: for the other case (participant singing the different # of notes as the melody (case 2)), the steps below are first followed:
   1) Number of notes added of deleted by participant = # of participant notes - # of notes in melody
   2) find which has fewer notes (sung melody of participant OR melody) (shorter matrix) and which has more notes (sung melody of participant OR melody) (longer matrix)
   3) now the smaller matrix will be filled with specially chosen notes to guess the participant's intentions:
