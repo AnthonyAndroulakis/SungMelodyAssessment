@@ -23,7 +23,7 @@ PHz=notePitches,noteLengths
 
 ## How to run MFE (Melodic Fidelity Evaluator):
 `import MFE`     
-`MFE.MFE('tune.txt', 'participant.txt')`      
+`MFE.MFE('melody.txt', 'sung.txt')`      
 returns noteIntervalError, rhythmError, noteNumDifference
 
 ##### example txt file: https://github.com/AnthonyAndroulakis/TuneTaskApps/blob/master/the%20tunes/matricies/tune1.txt
