@@ -57,8 +57,8 @@ This is shown in the graph below:
   5) find the Note Interval Error by finding the Euclidean Distance between the note intervals of the participant sung notes and melody notes
   6) Number of notes added or deleted by the participant = # of participant notes - # of notes in melody
 
-The algorithm described in function 1 is show here (note: length only refers to # of notes):
-![MFE Case 1](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase1.png)
+The algorithm described in function 1 is show here (note: length only refers to # of notes, unless otherwise specified):
+![MFE Case 1](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase1_updatedexplanation.pngg)
 
 - __function 2__: for the other case (participant singing the different # of notes as the melody (case 2)), the steps below are first followed:
   1) Number of notes added of deleted by participant = # of participant notes - # of notes in melody
