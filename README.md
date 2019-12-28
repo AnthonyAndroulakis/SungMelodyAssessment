@@ -30,7 +30,7 @@ returns noteIntervalError, rhythmError, noteNumDifference
 
 ---------------------------------
 # How these algorithms work: \*
-## Sung Melody to Matrix (SMM):
+## Sung Melody to Matrix (SMM) (automatic sung melody transcription):
 - input: .wav file of a sung melody
 - output: txt file containing frequency and duration information       
 (format: `[3 letter identifier]=[frequencies;durations]`)
@@ -75,6 +75,8 @@ The algorithm described in function 2 is shown here in 2 parts:
 
 (b) if sung melody # of notes __>__ standard melody # of notes:
 ![MFE Case 3](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase3.png)
+
+in all cases, # of notes added/deleted in sung melody = # of notes in sung melody - # of notes in standard melody
 
 ### \* Further code explanations can be found in the comment lines in [SMM.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/SMM.py) and [MFE.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/MFE.py)
 ---------------------------------
