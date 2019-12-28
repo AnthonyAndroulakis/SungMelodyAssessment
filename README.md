@@ -58,7 +58,7 @@ This is shown in the graph below:
   6) Number of notes added or deleted by the participant = # of participant notes - # of notes in melody
 
 The algorithm described in function 1 is show here __(note: length refers to # of notes, unless otherwise specified)__:
-![MFE Case 1](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase1_updatedexplanation.pngg)
+![MFE Case 1](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase1_updatedexplanation.png)
 
 - __function 2__: for the other case (participant singing the different # of notes as the melody (case 2)), the steps below are first followed:
   1) Number of notes added of deleted by participant = # of participant notes - # of notes in melody
