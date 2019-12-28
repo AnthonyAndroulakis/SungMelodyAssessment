@@ -1,7 +1,7 @@
 SMM.py & MFE.py, Anthony Androulakis, 2019
 # Sung Melody Assessment
 Sung Melody Assessment in Python. Includes sung melody transcription (SMM/Sung Melody to Matrix) and melody assessment (MFE/Melodic Fidelity Evaluator). This is an improved version of my [EncodingAndAssessingSungMelodies](https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies) algorithm. Improvements include increased efficiency and accuracy.
-![flowchart](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/SungMelodyAssessmentFlowchart.png)
+![flowchart](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/SungMelodyAssessment_flowchart.png)
 
 ## Requirements:
 1) .wav file of a sung melody, any length
