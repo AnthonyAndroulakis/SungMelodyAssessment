@@ -80,6 +80,7 @@ The algorithm described in function 2 is shown here in 2 parts:
 And here is an explanation/example of minimizing note interval Euclidean Distances using placeholder notes:
 ![Placeholder Explanation](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/placeholderexplanation.png)
 
+------
 __in all cases, # of notes added/deleted in sung melody = # of notes in sung melody - # of notes in standard melody__
 
 ### \* Further code explanations can be found in the comment lines in [SMM.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/SMM.py) and [MFE.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/MFE.py)
