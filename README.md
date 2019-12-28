@@ -77,7 +77,7 @@ The algorithm described in function 2 is shown here in 2 parts:
 ![MFE Case 3](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase3.png)
 
 ------
-And here is an explanation/example of minimizing note interval Euclidean Distances using placeholder notes:
+And here is an example/explanation of minimizing note interval Euclidean Distances using placeholder notes:
 ![Placeholder Explanation](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/placeholderexplanation.png)
 
 ------
