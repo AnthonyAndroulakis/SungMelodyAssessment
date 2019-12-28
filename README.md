@@ -71,10 +71,10 @@ The algorithm described in function 1 is show here __(note: length refers to # o
 
 The algorithm described in function 2 is shown here in 2 parts:     
 (a) if sung melody # of notes __<__ standard melody # of notes __(note: length only refers to # of notes)__:
-![MFE Case 2](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase2.png)
+![MFE Case 2](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase2updated.png)
 
 (b) if sung melody # of notes __>__ standard melody # of notes __(note: length only refers to # of notes)__:
-![MFE Case 3](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase3.png)
+![MFE Case 3](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase3updated.png)
 
 ------
 And here is an example/explanation of minimizing note interval Euclidean Distances using placeholder notes:
