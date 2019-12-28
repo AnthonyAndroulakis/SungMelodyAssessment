@@ -57,7 +57,8 @@ This is shown in the graph below:
   5) find the Note Interval Error by finding the Euclidean Distance between the note intervals of the participant sung notes and melody notes
   6) Number of notes added or deleted by the participant = # of participant notes - # of notes in melody
 
-![MFE Case 1](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFE1.png)
+The algorithm described in function 1 is show here:
+![MFE Case 1](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase1.png)
 
 - __function 2__: for the other case (participant singing the different # of notes as the melody (case 2)), the steps below are first followed:
   1) Number of notes added of deleted by participant = # of participant notes - # of notes in melody
@@ -67,6 +68,13 @@ This is shown in the graph below:
       * within each permutation, fill in pitches such that they are dependent on the value before and after. For example, if the pitches of the shortest matrix are 3,[extra note],[extra note],5, the only configurations available are 3,3,3,5 3,3,5,5 and 3,5,5,5. The configuration that leads to the smallest Euclidean Distance for note intervals between the shortest matrix and the longest matrix is chosen for each permutation.
       * find the permutation that has the smallest Euclidean Distance for note intervals between the shortest matrix and the longest matrix is found. 
   4) The matrix found above (previously shortest matrix) and the longest matrix are then placed as inputs into function 1 (described above) to calculate the Note Interval Error and Rhythm Error
+
+The algorithm described in function 2 is shown here in 2 parts:     
+if sung melody # of notes < standard melody # of notes:
+![MFE Case 2](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase2.png)
+
+if sung melody # of notes < standard melody # of notes:
+![MFE Case 3](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase3.png)
 
 ### \* Further code explanations can be found in the comment lines in [SMM.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/SMM.py) and [MFE.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/MFE.py)
 ---------------------------------
