@@ -70,10 +70,10 @@ The algorithm described in function 1 is show here:
   4) The matrix found above (previously shortest matrix) and the longest matrix are then placed as inputs into function 1 (described above) to calculate the Note Interval Error and Rhythm Error
 
 The algorithm described in function 2 is shown here in 2 parts:     
-if sung melody # of notes __<__ standard melody # of notes:
+(a) if sung melody # of notes __<__ standard melody # of notes:
 ![MFE Case 2](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase2.png)
 
-if sung melody # of notes __>__ standard melody # of notes:
+(b) if sung melody # of notes __>__ standard melody # of notes:
 ![MFE Case 3](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase3.png)
 
 ### \* Further code explanations can be found in the comment lines in [SMM.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/SMM.py) and [MFE.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/MFE.py)
