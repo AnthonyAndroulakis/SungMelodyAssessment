@@ -76,7 +76,7 @@ The algorithm described in function 2 is shown here in 2 parts:
 (b) if sung melody # of notes __>__ standard melody # of notes:
 ![MFE Case 3](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/examples/MFEcase3.png)
 
-in all cases, # of notes added/deleted in sung melody = # of notes in sung melody - # of notes in standard melody
+__in all cases, # of notes added/deleted in sung melody = # of notes in sung melody - # of notes in standard melody__
 
 ### \* Further code explanations can be found in the comment lines in [SMM.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/SMM.py) and [MFE.py](https://github.com/AnthonyAndroulakis/SungMelodyAssessment/blob/master/MFE.py)
 ---------------------------------
