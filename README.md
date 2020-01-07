@@ -7,7 +7,7 @@ Sung Melody Assessment in Python. Includes sung melody transcription (SMM/Sung M
 1) .wav file of a sung melody, any length
 2) python3 (tested successfully in python3)
 3) python modules:
-    - parselmouth (https://github.com/AnthonyAndroulakis/parselmouthForPython3)
+    - praat-parselmouth
     - numpy
     - scipy
     - itertools
