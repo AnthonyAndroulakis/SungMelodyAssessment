@@ -33,7 +33,7 @@ returns noteIntervalError, rhythmError, noteNumDifference
 ## Sung Melody to Matrix (SMM) (automatic sung melody transcription):
 - input: .wav file of a sung melody
 - output: txt file containing frequency and duration information       
-(format: `[3 letter identifier]=[frequencies;durations]`)
+(format: `3-letter-identifier=[frequencies;durations]`)
 - Praat (Parselmouth) is used to find the sung pitches and intensity curves.     
 - Praat only includes human voice in the pitch curve, thus creating a discontinuous pitch curve (NaN values inbetween voiced notes).      
 - Pitch segments that occur for less than 0.1 seconds are excluded.       
