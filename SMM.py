@@ -75,6 +75,7 @@ def SMM(filename):
     noteLengths = [t - s for s, t in zip(noteChanges, noteChanges[1:])]
     
     #########################
+    open(filename[:-4]+'.txt',"w+").write('PHz=['+' '.join([str(i) for i in notePitches])+';'+' '.join([str(j) for j in noteLengths])+']') # write to txt file
     return([notePitches,noteLengths])
 
 #example run: notePitches,noteLengths = SMM.SMM(filename)
