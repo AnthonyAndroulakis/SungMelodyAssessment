@@ -3,7 +3,7 @@
 #note: to convert between .mp3 and .wav, do: ffmpeg -i filename.mp3 newfilename.wav
 #assuming 0.1 seconds to be the fastest note anyone is going to sing
 #the below code needs .wav files to function
-from scipy.io import wavfile #needed for getting audio data (duration)
+#from scipy.io import wavfile #needed for getting audio data (duration)
 import more_itertools #helps in finding gaps of Nan for voice gaps
 import parselmouth #praat in python
 import numpy as np #arrays
@@ -13,8 +13,9 @@ import scipy.ndimage #gaussian moving average, for smoothing curve, assuming noi
 
 def SMM(filename):
     snd = parselmouth.Sound(filename)
-    Fs, data = wavfile.read(filename)
-    duration = data.size/Fs
+    #Fs, data = wavfile.read(filename)
+    #duration = data.size/Fs
+    duration = max(snd.xs())
 
     #pitch tests#########################################
 
