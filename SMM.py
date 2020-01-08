@@ -80,4 +80,4 @@ def SMM(filename):
     open(filename_name+'.txt',"w+").write('PHz=['+' '.join([str(i) for i in notePitches])+';'+' '.join([str(j) for j in noteLengths])+']') # write to txt file
     return([notePitches,noteLengths])
 
-#example run: notePitches,noteLengths = SMM.SMM(filename)
+#example run: [notePitches,noteLengths] = SMM.SMM(filename)
