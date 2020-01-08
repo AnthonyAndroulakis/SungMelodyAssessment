@@ -10,7 +10,6 @@ Sung Melody Assessment in Python. Includes sung melody transcription (SMM/Sung M
     - praat-parselmouth
     - numpy
     - scipy
-    - itertools
     - more_itertools
 
 ## How to run SMM (Sung Melody to Matrix):
